@@ -1,0 +1,208 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+
+
+.webstudio {
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.webstudio:hover {
+    color: #404bbf;
+}
+
+.webstudio:focus {
+    color: #404bbf;
+}
+
+
+
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #404bbf
+}
+
+.nav-link:focus {
+    color: #404bbf;
+}
+
+
+
+
+.adres {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+.adres:hover {
+    color: #404bbf;
+}
+
+.adres:focus {
+    color: #404bbf;
+}
+
+
+
+
+
+.effective {
+    background-color: #2e2f42;
+    width: 1440px;
+    height: 600px;
+    top: 72px;
+}
+
+.title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.buton {
+    background-color: #4d5ae5;
+    width: 169px;
+    height: 56px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.buton:hover {
+    background-color: #404bbf;
+}
+
+.buton:focus {
+    background-color: #404bbf;
+}
+
+
+
+
+.about-baslik {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.about-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-baslik {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.teamli {
+    background-color: #ffffff;
+}
+
+.team-isim {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+
+
+
+.portfolio-baslik {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.portfolio-is {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfoliop {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+
+.footer {
+    background-color: #2e2f42;
+    width: 1440px;
+    height: 312px;
+    top: 2988px;
+}
+
+.footerp {
+    color: #f4f4fd;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.footer-logo-span {
+    color: #2e2f42;
+}
