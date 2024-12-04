@@ -181,12 +181,27 @@ body {
 
 
 
+.about {
+    padding: 120px 0;
+}
+
+.about-list {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.aboutli {
+    width: calc((100% - 72px) / 4);
+}
+
 .about-baslik {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px
 }
 
 .about-p {
@@ -200,6 +215,7 @@ body {
 
 .team {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-baslik {
@@ -210,10 +226,21 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .teamli {
     background-color: #ffffff;
+}
+
+.team-unvan {
+    padding: 32px 0;
 }
 
 .team-isim {
@@ -222,6 +249,8 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-p {
@@ -230,6 +259,7 @@ body {
     letter-spacing: 2%;
     color: #434455;
     letter-spacing: 0.02em;
+    text-align: center
 }
 
 
