@@ -1,11 +1,33 @@
 body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
 
+.container {
+    width: 1158px;
+}
 
 
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+    justify-content: space-around;
+}
+#web-studio-1 {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 156px;
+}
 .webstudio {
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
@@ -36,6 +58,8 @@ body {
     list-style-type: none;
     color: #2e2f42;
     text-decoration: none;
+    display: flex;
+    gap: 40px;
 }
 
 .nav-link:hover {
@@ -48,8 +72,25 @@ body {
 
 
 
+.adres ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.adres-m {
+    width: 153px;
+    height: 24px;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;  
+}
 
-.adres {
+.adres-t {
+    width: 151px;
+    height: 24px;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -57,11 +98,19 @@ body {
     letter-spacing: 0.02em;
 }
 
-.adres:hover {
+.adres-t:hover {
     color: #404bbf;
 }
 
-.adres:focus {
+.adres-m:hover {
+    color: #404bbf;
+}
+
+.adres-t:focus {
+    color: #404bbf;
+}
+
+.adres-m:focus {
     color: #404bbf;
 }
 
@@ -83,6 +132,12 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    width: 496px;
+    height: 120px;
+    margin-top: 188px;
+    margin-right: 472px;
+    margin-bottom: 292px;
+    margin-left: 472px;
 }
 
 .buton {
@@ -93,7 +148,14 @@ body {
     font-weight: 500;
     color: #ffffff;
     line-height: 1.5;
-    letter-spacing: 0.04em;
+    border-radius: 4px;
+    padding: 16px 32px;
+
+    gap: 10px;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0,02em;
 }
 
 .buton:hover {
